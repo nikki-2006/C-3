@@ -1,2 +1,15 @@
-# C-3
-Right angle triangle pattern 
+// right angle triangle 
+#include<stdio.h>
+int main()
+{
+    int i,j,n;
+    printf("enter the size of pattre:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+    for(j=1;j<=i;j++){
+    printf("*");
+}
+printf("\n");
+}
+return 0;
+}
